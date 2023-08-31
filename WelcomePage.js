@@ -1,6 +1,6 @@
 import React from "react";
 
-import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Image, SafeAreaView } from 'react-native';
 
 
 export default function WelcomePage({navigation}) {
@@ -28,16 +28,16 @@ const styles = StyleSheet.create({
     background: {
         position: 'absolute',
         zIndex: 1,
-        width: 370,
-        height: 700, 
+        width: '100%',
+        height: '100%', 
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
     },
     image: {
         position: 'relative',
         flex: 1,
         justifyContent: 'center',
-        width: 370,
-        height: 700
+        width: '100%',
+        height: '100%'
     },
     bigText: {
         width: 300,
